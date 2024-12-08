@@ -1,0 +1,5 @@
+{
+  "dbName": "blogs",
+  "categoryCollectionName": "blog-categories",
+  "famousBlogsCollectionName": "famous-blogs"
+}
