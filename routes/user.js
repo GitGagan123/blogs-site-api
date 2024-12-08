@@ -13,6 +13,10 @@ router.get("/details", async (req, res) => {
   res.send("Welcome to User Details By Vercel");
 });
 
+router.get("/harsha", async(req,res) =>{
+  res.send("Welcome to Harsha's Endpoint")
+})
+
 router.get("/:id", (req, res) => {
   const requestedId = req.params.id;
   res.send(`Information for the User with ${requestedId}`);
