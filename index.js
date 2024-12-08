@@ -8,8 +8,10 @@ const app = express();
 app.use(cors());
 
 const userRoutes = require("./routes/user");
+const blogRoutes = require("./routes/blogs");
 
 app.use("/user", userRoutes);
+app.use("/blogs", blogRoutes);
 
 app.get("/", async (req, res) => {
   console.log(req.body);
